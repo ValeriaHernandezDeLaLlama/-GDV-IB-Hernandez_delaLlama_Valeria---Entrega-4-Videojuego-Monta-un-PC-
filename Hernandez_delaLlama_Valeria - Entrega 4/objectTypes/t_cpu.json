@@ -1,0 +1,9 @@
+{
+	"name": "t_cpu",
+	"plugin-id": "TextBox",
+	"sid": 153910986728023,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

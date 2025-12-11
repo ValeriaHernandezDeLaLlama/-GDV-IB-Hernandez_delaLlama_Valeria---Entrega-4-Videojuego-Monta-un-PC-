@@ -1,0 +1,559 @@
+{
+	"name": "Hoja de eventos_juego",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "t_cpu",
+					"sid": 282369726326721,
+					"parameters": {
+						"text": "\"cpu\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu",
+					"sid": 912164576025230,
+					"behaviorType": "Ancla",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "cpu",
+					"sid": 465139450907539,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "cpu",
+					"sid": 474768856820847,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 495412594723835,
+					"parameters": {
+						"value": "1"
+					}
+				}
+			],
+			"sid": 326287032977540
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "t_disipador",
+					"sid": 485564166613879,
+					"parameters": {
+						"text": "\"disipador\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "disipador",
+					"sid": 330156626189724,
+					"behaviorType": "Ancla",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "disipador",
+					"sid": 992293803376660,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "disipador",
+					"sid": 894230575771717,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 136563878733511,
+					"parameters": {
+						"value": "2"
+					}
+				}
+			],
+			"sid": 796682109897845
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "t_fuenteAlimentacion",
+					"sid": 544159848621547,
+					"parameters": {
+						"text": "\"fuente de alimentacion\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "fuente_alimentacion",
+					"sid": 553022951668628,
+					"behaviorType": "Ancla",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "fuente_alimentacion",
+					"sid": 906943246463440,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "fuente_alimentacion",
+					"sid": 304669447536753,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 552834337597748,
+					"parameters": {
+						"value": "3"
+					}
+				}
+			],
+			"sid": 138231875867617
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "t_gpu",
+					"sid": 972319338768389,
+					"parameters": {
+						"text": "\"gpu\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "gpu",
+					"sid": 564054846114772,
+					"behaviorType": "Ancla",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "gpu",
+					"sid": 666723633903105,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "gpu",
+					"sid": 591738934174416,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 270906435424339,
+					"parameters": {
+						"value": "4"
+					}
+				}
+			],
+			"sid": 568625016114156
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "t_placaBase",
+					"sid": 762637471309365,
+					"parameters": {
+						"text": "\"placa base\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "placa_base",
+					"sid": 263313739781022,
+					"behaviorType": "Ancla",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "placa_base",
+					"sid": 183191969706531,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "placa_base",
+					"sid": 700336270246959,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 668646971571208,
+					"parameters": {
+						"value": "5"
+					}
+				}
+			],
+			"sid": 639872165138443
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "t_ram",
+					"sid": 694609664654284,
+					"parameters": {
+						"text": "\"ram\"",
+						"case": "case-insensitive"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-enabled",
+					"objectClass": "ram",
+					"sid": 665803058936530,
+					"behaviorType": "Ancla",
+					"parameters": {
+						"state": "disabled"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "ram",
+					"sid": 771532177015191,
+					"behaviorType": "ArrastrarYSoltar",
+					"parameters": {
+						"state": "enabled"
+					}
+				},
+				{
+					"id": "unpin",
+					"objectClass": "ram",
+					"sid": 461335855733747,
+					"behaviorType": "Pegado"
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 248196947613688,
+					"parameters": {
+						"value": "6"
+					}
+				}
+			],
+			"sid": 780200740184728
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-progress",
+					"objectClass": "barraProgreso",
+					"sid": 817394658396292,
+					"parameters": {
+						"comparison": 0,
+						"value": "12"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 392895052663172,
+					"parameters": {
+						"layout": "fin"
+					}
+				}
+			],
+			"sid": 873555846391804
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "cpu",
+					"sid": 526960613132574,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "cpu",
+					"sid": 216160172425291,
+					"parameters": {
+						"object": "p_cpu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "cpu",
+					"sid": 356472484755447,
+					"parameters": {
+						"x": "p_cpu.X",
+						"y": "p_cpu.Y"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 916949014431496,
+					"parameters": {
+						"value": "7"
+					}
+				}
+			],
+			"sid": 589148807165453
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "disipador",
+					"sid": 192765776732456,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "disipador",
+					"sid": 796351897922803,
+					"parameters": {
+						"object": "p_disipador"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "disipador",
+					"sid": 656804981993101,
+					"parameters": {
+						"x": "p_disipador.X",
+						"y": "p_disipador.Y"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 716446757138449,
+					"parameters": {
+						"value": "8"
+					}
+				}
+			],
+			"sid": 331161687025851
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "fuente_alimentacion",
+					"sid": 308193646895017,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "fuente_alimentacion",
+					"sid": 509128726385766,
+					"parameters": {
+						"object": "p_fuenteAlimentacion"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "fuente_alimentacion",
+					"sid": 511817523712923,
+					"parameters": {
+						"x": "p_fuenteAlimentacion.X",
+						"y": "p_fuenteAlimentacion.Y"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 433869598244608,
+					"parameters": {
+						"value": "9"
+					}
+				}
+			],
+			"sid": 792216728475310
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "gpu",
+					"sid": 977431948338731,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "gpu",
+					"sid": 974433295007931,
+					"parameters": {
+						"object": "p_gpu"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "gpu",
+					"sid": 316187947621710,
+					"parameters": {
+						"x": "p_gpu.X",
+						"y": "p_gpu.Y"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 216758193937246,
+					"parameters": {
+						"value": "10"
+					}
+				}
+			],
+			"sid": 668322558801243
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "placa_base",
+					"sid": 961152434413317,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "placa_base",
+					"sid": 373272238418025,
+					"parameters": {
+						"object": "p_placaBase"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "placa_base",
+					"sid": 904204472069893,
+					"parameters": {
+						"x": "p_placaBase.X",
+						"y": "p_placaBase.Y"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 364367030258421,
+					"parameters": {
+						"value": "11"
+					}
+				}
+			],
+			"sid": 846442177261619
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-dragging",
+					"objectClass": "ram",
+					"sid": 261544131608546,
+					"behaviorType": "ArrastrarYSoltar"
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "ram",
+					"sid": 875962892512283,
+					"parameters": {
+						"object": "p_ram"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "ram",
+					"sid": 904030974324579,
+					"parameters": {
+						"x": "p_ram.X",
+						"y": "p_ram.Y"
+					}
+				},
+				{
+					"id": "set-progress",
+					"objectClass": "barraProgreso",
+					"sid": 538361131272955,
+					"parameters": {
+						"value": "12"
+					}
+				}
+			],
+			"sid": 559149177283143
+		}
+	],
+	"sid": 579367549491424
+}

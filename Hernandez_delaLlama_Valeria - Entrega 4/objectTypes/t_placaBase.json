@@ -1,0 +1,9 @@
+{
+	"name": "t_placaBase",
+	"plugin-id": "TextBox",
+	"sid": 839203888217430,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

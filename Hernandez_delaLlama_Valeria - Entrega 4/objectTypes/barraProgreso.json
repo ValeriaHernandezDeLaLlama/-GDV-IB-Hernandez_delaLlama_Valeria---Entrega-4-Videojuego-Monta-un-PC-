@@ -1,0 +1,17 @@
+{
+	"name": "barraProgreso",
+	"plugin-id": "progressbar",
+	"sid": 903636126305632,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "progreso",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 593227519730476
+		}
+	],
+	"behaviorTypes": []
+}

@@ -1,0 +1,72 @@
+{
+	"name": "fuente_alimentacion",
+	"plugin-id": "Sprite",
+	"sid": 393551070659768,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Ancla",
+			"sid": 802934713788382
+		},
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 454857241483238
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 435487751630672
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 100,
+						"height": 53,
+						"originX": 0.4898336414048059,
+						"originY": 0.5948275862068966,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5403677,
+						"collisionPoly": {
+							"points": [
+								0.031423290203327174,
+								0.0034482758620689655,
+								0.7024029574861368,
+								0.0034482758620689655,
+								0.9981515711645101,
+								0.32758620689655166,
+								0.966728280961183,
+								0.9896551724137931,
+								0.0073937153419593345,
+								0.9827586206896551,
+								0.0018484288354898336,
+								0.17586206896551723
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 589101720591668,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

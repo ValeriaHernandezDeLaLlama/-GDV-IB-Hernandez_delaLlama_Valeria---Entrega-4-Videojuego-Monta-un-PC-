@@ -1,0 +1,9 @@
+{
+	"name": "t_ram",
+	"plugin-id": "TextBox",
+	"sid": 536554703725092,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}

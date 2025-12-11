@@ -1,0 +1,9 @@
+{
+	"name": "t_disipador",
+	"plugin-id": "TextBox",
+	"sid": 169738538736340,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": []
+}
